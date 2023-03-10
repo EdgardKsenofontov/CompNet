@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    font-family: Trebuchet MS, Helvetica;
+}
+.fixed {
+    width: 100%;
+    height: 225px;
+    background-color: #D7BE67;
+    float: left;
+    position: fixed;
+}
+.logo{
+    float: left;
+    height: 225px;
+    margin-left: 134px;
+    padding-top: 77px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #000000;
+}
+.biography{
+    float: right;
+    height: 225px;
+    margin-right: 100px;
+    padding-top: 60px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+
+    color: black;
+}
+.about{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about div{
+    padding-top: 35px;
+    padding-right: 60px;
+    padding-left: 60px;
+    height: 715px;
+    width: 26.5%; 
+    background-color: #D7BE67;
+
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 34px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+#Links{
+    margin-top: 21px;
+    padding-top: 20px;
+    width: auto;
+    height: 99px;
+    background-color: #D7BE67;
+
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    margin-left: 20px;
+    font-size: 40px;
+}
+p{
+    position: relative;
+    font-size: 10px;
+    margin-left: 30px;
+}
+#Copyright{
+    margin-top: 21px;
+    padding-top: 40px;
+    width: auto;
+    height: 70px;
+    background-color: #D7BE67;
+
+    font-size: 40px;
+    text-align: center;
+}
+.space{
+    height: 225px;
+    width: auto;
+    background-color: white;
+}
