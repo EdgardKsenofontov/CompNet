@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Праздник в каждый дом</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<header>
+    <div id="logo" onclick="slowScroll('#top')"  >
+        <img src="src/img/5-o7JNMM4Fa-transformed.png" width="70">
+    </div> 
+    <div id="about">
+        <a href="index.html"  onclick="slowScroll('#main')" title="Возможности">Главная</a>            
+        <a href="" onclick="slowScroll('#overiew')" title="Преимущества">Акции</a>
+        <a href="search.html" onclick="slowScroll('#contacts')" title="Контакты">Поиск</a>
+        <a href="" onclick="slowScroll('#mfaq')" title="Ответы на вопросы">Забронировать</a>
+    </div>
+</header>  
+<body>
+    
+    <div id="top">
+        <h1>Праздник </h1>
+        <h3>Как способ жизни!</h3>
+    </div>
+    <div id="main">
+        <div class="intro">
+            <h2> Подарим волшебство для Ваших детей!</h2>
+            <br>
+            <span>«Праздник в каждый дом», 
+                Предоставляем услуги организации детских праздников на нашей территории в очень интересных локациях.
+                Главная цель компании – сделать праздник незабываемым для детей и их родителей.</Span>
+        </div>
+        <div class="text">
+            <span>
+
+                У нас есть волшебная палочка — это любовь к детям! С её помощью мы уже 7 лет исполняем детские мечты, создавая для них добрые праздники. Для нас нет событий «важных» и «не очень» — каждый праздник является ярким событием детства и надолго остается в памяти.
+                
+                В нашем арсенале есть большой выбор развлечений для детей — самые модные квесты, дискотеки, познавательные и интеллектуальные программы. Благодаря ярким костюмам, слаженной работе профессиональных аниматоров и ответственному подходу к делу, мы постараемся провести Ваш праздник на высшем уровне и оставить приятные воспоминания.
+                
+                Чудесного путешествия по Стране Волшебников! Надеемся на скорую встречу с вами!</span>
+        </div>
+    </div>
+    
+    <div id="overview">
+        <h2>Довольные клиенты</h2>
+        <h4></h4>
+        <div class="img">
+            <img src="src/img/Ивановы.jpg" alt="Ивановы">
+            <span>Семья Ивановых</span>
+        </div>
+        <div class="img">
+            <img src="src/img/Федоровы.jpg" alt="Федоровы">
+            <span>Семья Федоровых</span>
+        </div>
+        <div class="img">
+            <img src="src/img/Петровы.jpg" alt="Петровы">
+            <span>Семья Петровых</span>
+        </div>
+        <div class="img">
+            <img src="src/img/Андросовы.jpg" alt="Андросовы">
+            <span>Семья Андросовых</span>
+        </div>
+    </div>
+    <div id="search_block"> 
+        <div class="zone">
+            <form id="search_loc">
+                <label for="region">Регион<span>*</span></label><br>
+                <input type="text" placeholder="Введите регион" name="region" id="region"><br>
+                <label for="name">Наименование<span>*</span></label><br>
+                <input type="text" placeholder="Введите наименование мероприятия" name="name" id="name"><br>
+                <label for="adress">Адрес<span>*</span></label><br>
+                <input type="text" placeholder="Введите адрес" name="adress" id="adress"><br>
+                <label for="data">Дата<span>*</span></label><br>
+                <input type="text" placeholder="Введите дату" name="data" id="data"><br>
+            </form>
+            <a id="mess_send" class="btn" href="search.html">Поиск</a>
+            
+        </div>
+    </div>  
+    <div id="contacts">
+        <center><h5>Обратная связь</h5></center>
+        <form id="form_input">
+            <label for="name">ФИО<span>*</span></label><br>
+            <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+            <label for="email">Ваша почта<span>*</span></label><br>
+            <input type="email" placeholder="Введите email" name="email" id="email"><br>
+            <label for="message">Сообщение<span>*</span></label><br>
+            <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+            <div id="mess_send" class="btn">Отправить</div>
+        </form>
+    </div>
+    <div id="faq">
+        <div>
+            <span class="title">Оплата</span><br>
+            <span class="heading">Как будет проходить оплата?</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, non fugiat. Aliquam ipsa distinctio nihil, deserunt nam voluptatibus eum saepe incidunt! Eius explicabo non nihil accusantium consequuntur architecto illo tenetur.</p>
+            <span class="heading">Как будет проходить оплата?</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, non fugiat. Aliquam ipsa distinctio nihil, deserunt nam voluptatibus eum saepe incidunt! Eius explicabo non nihil accusantium consequuntur architecto illo tenetur.</p>
+            <span class="heading">Как будет проходить оплата?</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, non fugiat. Aliquam ipsa distinctio nihil, deserunt nam voluptatibus eum saepe incidunt! Eius explicabo non nihil accusantium consequuntur architecto illo tenetur.</p>            
+        </div>
+        <div>
+            <span class="title">Информация</span><br>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat nulla neque ea iure assumenda saepe maiores repudiandae deleniti. Placeat velit quia saepe voluptatibus ipsam? Repellat inventore aliquid magnam molestias.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat nulla neque ea iure assumenda saepe maiores repudiandae deleniti. Placeat velit quia saepe voluptatibus ipsam? Repellat inventore aliquid magnam molestias.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat nulla neque ea iure assumenda saepe maiores repudiandae deleniti. Placeat velit quia saepe voluptatibus ipsam? Repellat inventore aliquid magnam molestias.</p>
+        </div>
+        <div>
+            <span class="title">Гарантии</span><br>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat nulla neque ea iure assumenda saepe maiores repudiandae deleniti. Placeat velit quia saepe voluptatibus ipsam? Repellat inventore aliquid magnam molestias.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat nulla neque ea iure assumenda saepe maiores repudiandae deleniti. Placeat velit quia saepe voluptatibus ipsam? Repellat inventore aliquid magnam molestias.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur placeat nulla neque ea iure assumenda saepe maiores repudiandae deleniti. Placeat velit quia saepe voluptatibus ipsam? Repellat inventore aliquid magnam molestias.</p>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="src/script.js"></script>
+</body>
+</html> 
